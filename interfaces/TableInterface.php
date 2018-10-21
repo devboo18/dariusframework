@@ -2,7 +2,9 @@
 
 namespace Interfaces;
 
-interface TableInterface{
+abstract class TableInterface{
+
+	private $databasefields = array();
 
 	public function setTableName($tableName);
 	public function get($condition = array());

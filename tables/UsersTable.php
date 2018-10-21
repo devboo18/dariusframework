@@ -5,13 +5,12 @@ namespace Tables;
 use Library\Table;
 use Interfaces\TableInterface;
 
-class UsersTable extends Table {
+class UsersTable extends Table  {
 	
 	private $table;
 
 	public function __construct(){
 
-		$this->setTableName('users');
 
 	}
 
