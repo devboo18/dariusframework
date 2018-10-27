@@ -2,6 +2,7 @@
 class R {
 
 	constructor(){
+		/*TODO:Inicializar o server recebendo um parametro via INIT*/
 		this.server ='http://localhost:8080/requests/';
 	}
 
@@ -63,5 +64,5 @@ class R {
 
 }
 
-var Xr  = new R();
+var Xr  = new R();//Enviar server aqui -- TODO
 
